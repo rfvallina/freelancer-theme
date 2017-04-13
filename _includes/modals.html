@@ -16,19 +16,21 @@
                             <hr class="star-primary">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.description }}</p>
-                            <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                            <ul class="item-details">
+                            {% if post.client-name %}
+                                <li><u>Client</u>:
+                                    <strong><a href="{{ post.client-url }}" target="_blank">{{ post.client-name }}</a>
                                     </strong>
                                 </li>
-                                <li>Date:
-                                    <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
-                                    </strong>
+                            {% endif %}
+                            {% if post.technologies %}
+                                <li><u>Stack</u>: <strong>{{ post.technologies }}</strong></li>
+                            {% endif %}
+                            {% if post.role %}
+                                <li><u>Role</u>:
+                                    <strong>{{ post.role }}</strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
-                                    </strong>
-                                </li>
+                            {% endif %}
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>

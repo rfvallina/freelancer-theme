@@ -31,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-    text-transform: uppercase;
+   /* text-transform: uppercase;*/
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
@@ -453,4 +453,8 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+.item-details li {
+    display: block;
 }
