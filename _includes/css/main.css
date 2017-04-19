@@ -82,7 +82,14 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    background: url("img/background.jpg"); 
+    /*background: #{{ site.color.primary }};*/
+    /* Full height */
+    height: 100vh;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header .container {
@@ -215,6 +222,7 @@ section.success {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
+    color: #ffffff;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption:hover {
@@ -457,4 +465,55 @@ footer .footer-below {
 
 .item-details li {
     display: block;
+}
+
+.portfolio-category {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.navbar-default {
+    background-color: transparent;
+}
+
+.menu-bg {
+    background-color: #{{ site.color.secondary }};
+}
+
+/* Below block has been customized to keep navbar always collapsed */
+@media (max-width: 2000px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
 }

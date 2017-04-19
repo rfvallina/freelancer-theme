@@ -10,16 +10,17 @@
             </div>
             
                 {% for cat in site.data.portfolio-categories %}
-                    <h4>{{ cat.name }}</h4>
+                    <h4 class="portfolio-category">{{ cat.name }}</h4>
                     <div class="row">                 
                         {% for post in site.categories[cat.key] %}
                             <div class="col-sm-4 portfolio-item">
                             <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
                                 <div class="caption">
-                                hello
-                                    <!--<div class="caption-content">
-                                        <i class="fa fa-search-plus fa-3x"></i>
-                                    </div>-->
+                                    <div class="caption-content">
+                                        <!--<i class="fa fa-search-plus fa-3x"></i>-->
+                                        <p>{{ post.client-name }}</p>                                    
+                                        <p class="small">{{ post.technologies }}</p>
+                                    </div>
                                 </div>
                                 <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                             </a>
