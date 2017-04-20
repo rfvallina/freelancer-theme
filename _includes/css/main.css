@@ -517,3 +517,18 @@ footer .footer-below {
         display:block !important;
     }
 }
+
+.tech-group {
+    text-align: center;
+}
+
+.tech-group-title {
+    color: #{{ site.color.secondary-dark }};
+    background-color: #ffffff;
+}
+
+.tech-group-content {
+    background-color: #{{ site.color.secondary }};
+}
+
+.top-buffer { margin-top:20px; }
