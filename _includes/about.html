@@ -8,75 +8,56 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-lg-8 col-lg-offset-2">
+                <div class="col-lg-10 col-lg-offset-1">
                     <p><strong>Hello!</strong></p>
                     <p>My name is Raúl Fuente Vallina and I’m a Full Stack Freelance Software Engineer from Asturias (north of Spain). I love developing quality software and productive apps. My goal is to help customers to improve their business through flawless and elegant software solutions.</p>
                 </div>
             </div>
             <div class="row top-buffer">
+            {% for tech in site.data.technologies %}
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div class="panel tech-group">
                       <div class="panel-heading tech-group-title">
-                        <h3 class="panel-title">Backend</h3>
+                        <h3 class="panel-title">{{ tech.key }}</h3>
                       </div>
                       <div class="panel-body tech-group-content">
                         <ul class="list-unstyled">
-                            <li>Node.js</li>
-                            <li>Java</li>
-                            <li>Spring Framework</li>
-                            <li>AWS</li>
-                            <li>Google Cloud</li>
-                            <li>Heroku</li>
+                        {% for value in tech.values %}
+                            <li>{{ value }}</li>
+                        {% endfor %}
                         </ul>
                       </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <div class="panel tech-group">
-                      <div class="panel-heading tech-group-title">
-                        <h3 class="panel-title">Frontend</h3>
-                      </div>
-                      <div class="panel-body tech-group-content">
-                        <ul class="list-unstyled">
-                            <li>jQuery</li>
-                            <li>Angular</li>
-                            <li>React</li>
-                        </ul>
-                      </div>
+            {% endfor %}
+            </div>
+            <div class="row top-buffer">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <p>I love doing outdoor activities specially those which are in contact with nature like surfing and hiking. I'm also a great devotee of music.</p>
+                    <p>Inspiration is essential when you are a freelancer. Below are some quotes that are useful in my day-to-day.</p>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <div class="panel tech-group">
-                      <div class="panel-heading tech-group-title">
-                        <h3 class="panel-title">Databases</h3>
-                      </div>
-                      <div class="panel-body tech-group-content">
-                        <ul class="list-unstyled">
-                            <li>MongoDB</li>
-                            <li>Redis</li>
-                            <li>PostgreSQL</li>
-                            <li>MySQL</li>
-                        </ul>
-                      </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-                    <div class="panel tech-group">
-                      <div class="panel-heading tech-group-title">
-                        <h3 class="panel-title">E-Commerce API's</h3>
-                      </div>
-                      <div class="panel-body tech-group-content">
-                        <ul class="list-unstyled">
-                            <li>eBay</li>
-                            <li>Amazon</li>
-                            <li>Shopify</li>
-                            <li>BigCommerce</li>
-                            <li>Weebly</li>
-                            <li>Etsy</li>
-                        </ul>
-                      </div>
+                    <div class="row top-buffer">
+                        <blockquote>
+                          <p>To achieve, you need thought. You have to know what you are doing and that's real power</p>
+                          <footer>Ayn Rand</footer>
+                        </blockquote>
+                        <blockquote>
+                          <p>You will never do anything in this world without courage. It is the greatest quality of the mind next to honor</p>
+                          <footer>Aristotle</footer>
+                        </blockquote>
+                        <blockquote>
+                          <p>I admire how advanced societies achieved a peaceful coexistence by means of respecting rules</p>
+                          <footer>Me</footer>
+                        </blockquote>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="row top-buffer">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+                    <img src="img/gallery1-xs.jpg"/>
+                    <div class="text-center">
+                        <small >test dd</small>
+                    </div>
+                </div>
+            </div>
     </section>

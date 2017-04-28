@@ -1,0 +1,30 @@
+- key: Backend
+  values: 
+    - Node.js
+    - Java
+    - Spring Framework
+    - AWS
+    - Google Cloud
+    - Heroku
+
+- key: Frontend
+  values:
+    - jQuery
+    - Angular
+    - React
+
+- key: Databases
+  values:
+    - MongoDB
+    - Redis
+    - PostgreSQL
+    - MySQL
+
+- key: ECommerce API's
+  values:
+    - eBay
+    - Amazon
+    - Shopify
+    - BigCommerce
+    - Weebly
+    - Etsy

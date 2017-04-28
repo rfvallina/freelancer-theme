@@ -532,3 +532,8 @@ footer .footer-below {
 }
 
 .top-buffer { margin-top:20px; }
+
+.img-responsive{
+  max-width: 100%;
+  height: auto;
+}
