@@ -9,6 +9,7 @@ tags: [Javascript, Node.js]
 
 In this post I'm going to talk about a quite useful topic around Node.js: **Code Reuse**. I didn't find a good article enumerating the different options you have and the benefits and disadvantages of each of them. I have to deal with this in most of my Node projects so describing this can be of great help.
 <!-- more -->
+
 Suppose you have a bunch of private libraries you want to share on one or several applications. Let's say you developed some common functionality that can be used in different applications. You have to be able to share them across your Node applications in a centralized way, but privately, because you don't want them to be publicly accessed. These are only for our personal use.
 
 I'm going to focus only in sharing libraries locally (not through a remote repository or whatever), which is good for development purposes. I might cover how to share libraries remotely in subsequent articles.

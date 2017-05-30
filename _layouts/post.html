@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
     {% include head.html %}
+    {% include header_post.html %}
     <body id="page-top" class="index">
 
 <article role="article">
   <div class="container">
     <div class="row">
-      <div class="col-md-8 col-md-offset-2">
-        <h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>
+      <div class="col-md-10 col-md-offset-1">
+        <!--<h1>{% if site.titlecase %}{{ page.title | titlecase }}{% else %}{{ page.title }}{% endif %}</h1>-->
         <div class="meta">
-          written {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
-          {% include post/categories.html %}
+        <!--  written {% include post/date.html %}{% if updated %}{{ updated }}{% else %}{{ time }}{% endif %}
+          {% include post/categories.html %}-->
         </div>
+        <div class="top-buffer">
         {{ content }}
+        </div>
 
         <hr class="divider-short"/>
 
@@ -33,12 +36,28 @@
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-        {% if page.previous.url %}
-          <a class="pull-left" href="{{page.previous.url}}" title="Previous Post: {{page.previous.title}}">&laquo; Previous: {{page.previous.title}}</a>
-        {% endif %}
 
-        {% if page.next.url %}
-          <a class="pull-right" href="{{page.next.url}}" title="Next Post: {{page.next.title}}">Next: {{page.next.title}} &raquo;</a>
+        {% for post in site.categories.blog %}
+        {% if post.url == page.url %}
+            {% assign post_index0 = forloop.index0 %}
+            {% assign post_index1 = forloop.index %}
+        {% endif %}
+        {% endfor %}
+        {% for post in site.categories.blog %}
+            {% if post_index0 == forloop.index %}
+                {% assign next_post = post.url %}
+                {% assign next_post_title = post.title %}
+            {% endif %}
+            {% if post_index1 == forloop.index0 %}
+                {% assign prev_post = post.url %}
+                {% assign prev_post_title = post.title %}
+            {% endif %}
+        {% endfor %}
+        {% if prev_post %}
+            <a class="pull-left" href="{{ prev_post }}">&laquo; Prev: {{ prev_post_title }}</a>
+        {% endif %}
+        {% if next_post %}
+            <a class="pull-right" href="{{ next_post }}">Next: {{ next_post_title }} &raquo;</a>
         {% endif %}
       </div>
     </div>

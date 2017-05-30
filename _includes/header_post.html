@@ -7,6 +7,10 @@
                     <div class="intro-text">
                         <span class="title">{{ page.title }}</span>
                         <span class="skills">by <a class="header" href="{{ site.url }}">rfvallina</a></span>
+                        <p class="small top-buffer">Posted {{ page.date | date: "%b %d, %Y" }} in {% for tag in page.tags %}
+                            {{ tag | prepend: '<span class="label label-default">' | append: '</span>'}}
+                        {% endfor %}
+                        </p>
                     </div>
                 </div>
             </div>

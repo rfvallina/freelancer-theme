@@ -573,3 +573,8 @@ article .month{
     color: #b4bcc2;
     position: absolute;
 }
+
+a.header {
+    color: #fff;
+    text-decoration: underline;
+}
