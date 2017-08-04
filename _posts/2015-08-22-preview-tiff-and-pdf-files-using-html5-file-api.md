@@ -4,7 +4,7 @@ title: "Preview TIFF and PDF files using HTML5 File API"
 date: 2015-08-22 20:29:32 +0200
 comments: true
 category: blog
-tags: [HTML5, FileReader, Javascript, Images, Canvas]
+tags: [html5, javascript]
 ---
 
 Sometimes you need to read files which are in the user's local machine. Here is where HTML [**File API**](http://www.w3.org/TR/FileAPI/) comes into play. The use case I'm going to explain is when you want to make a preview of an image which has not been uploaded anywhere yet, so you don't have the url of the image.

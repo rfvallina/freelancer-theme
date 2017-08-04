@@ -47,6 +47,9 @@ social:
   - title: github
     url: http://github.com/rfvallina
 
+# Social share buttons
+twitter_username: rfvallina
+
 # Postal address (add as many lines as necessary)
 address:
   - line: Asturias (north of Spain)

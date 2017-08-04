@@ -4,7 +4,7 @@ title: "Validate Yahoo signature with PHP"
 date: 2015-05-14 12:53:20 +0200
 comments: true
 category: blog
-tags: [PHP, Ruby, Yahoo]
+tags: [php, ruby, yahoo]
 ---
 
 Yahoo allows applications to be integrated on Yahoo sites for merchants or simply Yahoo site owners. When you develop an application for Yahoo, first thing you have to do is to be able to validate the Yahoo signature to ensure all requests come from a Yahoo site.

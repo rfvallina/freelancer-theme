@@ -8,7 +8,7 @@
                         <span class="title">{{ page.title }}</span>
                         <span class="skills">by <a class="header" href="{{ site.url }}">rfvallina</a></span>
                         <p class="small top-buffer">Posted {{ page.date | date: "%b %d, %Y" }} in {% for tag in page.tags %}
-                            {{ tag | prepend: '<span class="label label-default">' | append: '</span>'}}
+                            <span class="label label-white"><a href="/blog/tag/{{ tag }}">{{ tag }}</a></span>
                         {% endfor %}
                         </p>
                     </div>

@@ -4,7 +4,7 @@ title: "Verify Shopify Webhooks using Node.js"
 date: 2015-11-22 20:17:17 +0100
 comments: true
 category: blog
-tags: [Node.js, ecommerce, Shopify]
+tags: [nodejs, ecommerce, shopify]
 ---
 
 As you might know if you have experience with the [Shopify API](https://docs.shopify.com/api), Shopify provides **Webhooks**, which is a tool for retrieving and storing data from a certain event. They even allow managing Webhooks through the API. For instance, if you want your application to be notified when a new order is placed in your store, you may register a Webhook for the _create/order_ event.

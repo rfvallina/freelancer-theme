@@ -4,7 +4,7 @@ title: "How to Schedule a Daily Reboot on an AWS EC2 Instance"
 date: 2016-04-10 19:54:44 +0200
 comments: true
 category: blog
-tags: [AWS, Linux]
+tags: [aws, linux]
 ---
 
 I don't think this is a usual thing in production environments, but I had the requirement to reboot the AWS EC2 instance every day because the applications were slowing down as the days go by.

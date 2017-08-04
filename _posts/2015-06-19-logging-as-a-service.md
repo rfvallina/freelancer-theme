@@ -4,7 +4,7 @@ title: "Logging as a Service"
 date: 2015-06-19 12:23:49 +0200
 comments: true
 category: blog
-tags: [Java, Logging, Cloud, SaaS]
+tags: [java, logging, saas]
 ---
 
 Every software developer knows just how important it is to have a well-defined, well-functioning logging mechanism. Alas, we don’t always devote much effort to this task, thus missing on its many benefits, mainly error prevention and/or detection. If we look back in time, we readily observe that for Java the log4j library has been en vogue for a while now. Oftentimes, and until very recently, many apps were log4j-based and their log files were stored somewhere in the server. I have to admit that this could well be enough in some cases, provided the configuration is done competently and with a decent design.

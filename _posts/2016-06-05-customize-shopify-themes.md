@@ -4,7 +4,7 @@ title: "Tips to Customize Shopify Themes"
 date: 2016-06-05 10:37:21 +0200
 comments: true
 category: blog
-tags: [Shopify, eCommerce]
+tags: [shopify, ecommerce]
 ---
 
 Whether you are changing the look of your theme or you are adding a new feature not supported by your current theme you have to make changes on your theme files. Shopify gives some recommendations to achieve this in [this post](https://help.shopify.com/themes/customization).

@@ -4,7 +4,7 @@ title: "Share private Node.js modules across applications (locally)"
 date: 2015-11-12 14:53:11 +0100
 comments: true
 category: blog
-tags: [Javascript, Node.js]
+tags: [javascript, nodejs]
 ---
 
 In this post I'm going to talk about a quite useful topic around Node.js: **Code Reuse**. I didn't find a good article enumerating the different options you have and the benefits and disadvantages of each of them. I have to deal with this in most of my Node projects so describing this can be of great help.

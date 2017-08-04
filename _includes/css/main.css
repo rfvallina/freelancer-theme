@@ -578,3 +578,11 @@ a.header {
     color: #fff;
     text-decoration: underline;
 }
+
+.label-white {
+    background-color: #fff;
+}
+
+.link-white {
+    color: #fff;
+}

@@ -4,7 +4,7 @@ title: "Monitor disk space usage in AWS using Node.js"
 date: 2016-02-27 17:21:09 +0100
 comments: true
 category: blog
-tags: [Node.js, AWS, Linux]
+tags: [nodejs, aws, linux]
 ---
 
 Sometimes, if you are a server administrator or you simply are an application owner but you have full rights on the server, you could be interested in being informed when the disk space is reaching the maximum capacity.

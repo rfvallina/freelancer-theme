@@ -22,7 +22,7 @@
                         <div class="text-muted">
                             posted on 
                             {% for tag in post.tags %}
-                                {{ tag | prepend: '<span class="label label-default">' | append: '</span>'}}
+                                <span class="label label-default"><a class="link-white" href="/blog/tag/{{ tag }}">{{ tag }}</a></span>
                             {% endfor %}
                         </div> 
                     </div>

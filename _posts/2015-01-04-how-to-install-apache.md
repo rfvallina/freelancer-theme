@@ -4,7 +4,7 @@ title: "How to install Apache, PHP 5.5 and Memcached on AWS EC2"
 date: 2015-01-04
 comments: true
 category: blog
-tags: [AWS, EC2, Linux, Memcached]
+tags: [aws, ec2, linux, memcache]
 ---
 
 AWS EC2 looks like a good choice when you need a clean instance ready for you to manage your own server as per your needs.

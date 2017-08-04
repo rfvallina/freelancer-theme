@@ -4,7 +4,7 @@ title: "Deployment management on multiple AWS instances with Capistrano 3"
 date: 2015-02-01 16:02:16 +0100
 comments: true
 category: blog
-tags: [AWS, EC2, Linux, CentOS, Capistrano, Deployment management, Git, Jenkins, OpsWorks, Puppet, Ruby, PHP]
+tags: [aws, ec2, linux, centos, git, ci]
 ---
 
 When your application has to run on multiple servers or you simply has multiple applications running on different servers it's always a good idea to automate this process so you don't have to manually deploy the application on each server every time a new fix, release or whatever is applied.
