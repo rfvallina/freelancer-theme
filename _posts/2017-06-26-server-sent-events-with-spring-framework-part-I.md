@@ -23,7 +23,7 @@ Here is a [nice article](https://www.html5rocks.com/en/tutorials/eventsource/bas
 
 ## SSE with Spring
 There was no support for SSE in **Spring Framework** until version 4.2 (mid 2015). Yes, now you are thinking '*Wow, this is very late, since SSE became available in HTML5 back in 2009-2010*' ([See W3 specification](https://www.w3.org/TR/2009/WD-eventsource-20091029)).
-Not only that, IE browser doesn't yet support SSE. *You're kidding me, right?* 
+Not only that, at the moment of writing this (June 2017) IE browser doesn't yet support SSE. *You're kidding me, right?* 
 
 The good thing is that in latest Spring releases you can implement SSE very easily. The stuff involved in Spring is the **emitter**, the **event publisher**, the **event listener** and the **event object**.
 
