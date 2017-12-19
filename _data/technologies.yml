@@ -1,17 +1,17 @@
 - key: Backend
   values: 
-    - Node.js
     - Java
     - Spring Framework
+    - Node.js
+    - DevOps
     - AWS
     - Google Cloud
     - Heroku
 
 - key: Frontend
   values:
+    - Vue
     - jQuery
-    - Angular
-    - React
 
 - key: Databases
   values:
