@@ -1,0 +1,49 @@
+- title: Vue JS 2 - The Complete Guide (incl. Vue Router & Vuex)
+  url: https://www.udemy.com/vuejs-2-the-complete-guide/learn/v4/overview
+  date: January 2018
+  hours: 21 
+  tags:
+    - Vue
+    - ES2017
+
+- title: Introduction to MongoDB using the MEAN Stack
+  url: https://www.edx.org/course/introduction-mongodb-using-mean-stack-mongodbx-m101x-0
+  date: February 2016
+  hours: 20 
+  tags:
+    - MongoDB
+    - Node
+    - Angular
+
+- title: "M101JS: MongoDB for Node.js Developers"
+  url: https://university.mongodb.com/courses/MongoDB/M101JS/2015_October/syllabus
+  date: December 2015
+  hours: 40   
+  tags:
+    - MongoDB
+    - Node
+
+- title: Cordys BPM Certified
+  url: 
+  date: September 2013
+  tags:
+    - Cordys
+
+- title: Cordys Fundamentals Certified Professional
+  url: 
+  date: October 2012
+  tags:
+    - Cordys
+
+- title: Sun Certified Java Programmer (Java SE 5)
+  url: http://education.oracle.com/pls/web_prod-plq-dad/db_pages.getpage?page_id=5001&get_params=p_exam_id:1Z0-808
+  date: May 2007 
+  tags:
+    - Java
+
+- title: Linux Servers Administration
+  url: 
+  date: December 2002
+  hours: 400
+  tags:
+    - Linux

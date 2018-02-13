@@ -1,0 +1,45 @@
+ <!-- About Section -->
+    <section id="courses">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Courses &amp; Certifications</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <p><img src="img/courses/simple-award-ribbon.png"/></p>
+                    <p>Training is essential in any career, but in Technology I think it's particularly important as this world evolves very quickly. Below, I would like to show the most outstanding courses and certifications I received throughout the years.</p>
+                </div>
+            </div>
+            <div class="row top-buffer">
+                <div class="col-lg-10 col-lg-offset-1">
+                    <ul>
+                    {% for course in site.data.courses %}
+                        <article>
+                        <li>                                              
+                                <h3>
+                                    {% if course.url %}
+                                        <a href="{{ course.url }}">{{ course.title }}</a>
+                                    {% else %}
+                                        {{ course.title }}
+                                    {% endif %}
+                                </h3>
+                            </li>
+                                <div class="text-muted">
+                                    {% if course.hours %}
+                                        ({{ course.hours }} hours) - 
+                                    {% endif %}
+                                    {{ course.date }}
+                                    {% for tag in course.tags %}
+                                    <span class="label label-default">{{ tag }}</span>
+                                    {% endfor %}
+                                </div>
+                        </article>
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
