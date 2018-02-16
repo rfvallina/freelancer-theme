@@ -7,7 +7,7 @@ alt: Shopify Orderflow
 project-date: April 2016
 client-name: 
 client-url: 
-category: cat2
+category: cat1
 role: Senior Web Developer
 technologies: PHP, Javascript, Shopify API
 description: Shopify Private App to be used for multiple Shopify Vendors to connect directly to a manufacturing software. On a regular schedule basis the new orders are collected and sent to the manufacturing software

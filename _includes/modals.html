@@ -19,7 +19,12 @@
                             <ul class="item-details">
                             {% if post.client-name %}
                                 <li><u>Client</u>:
-                                    <strong><a href="{{ post.client-url }}" target="_blank">{{ post.client-name }}</a>
+                                    <strong>
+                                        {% if post.client-url %}
+                                            <a href="{{ post.client-url }}" target="_blank">{{ post.client-name }}</a>
+                                        {% else %}
+                                            {{ post.client-name }}
+                                        {% endif %}
                                     </strong>
                                 </li>
                             {% endif %}
