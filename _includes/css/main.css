@@ -487,6 +487,11 @@ footer .footer-below {
 
 .navbar-default {
     background-color: transparent;
+    position:fixed;
+    z-index:100;
+    color:white;
+    top:2rem;
+    right:2rem
 }
 
 .menu-bg {
@@ -590,3 +595,4 @@ a.header {
 .label-portfolio-tech {
     background-color: #217756;
 }
+
