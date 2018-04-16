@@ -11,4 +11,5 @@ category: cat1
 role: Lead Developer
 technologies: Java, Spring, Vue, Ebay API
 description: Real fast search engine for eBay which finds items based on specific filters once they are listed and even before they are visible on eBay site.
+published: false
 ---
