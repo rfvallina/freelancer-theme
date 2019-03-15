@@ -1,17 +1,15 @@
-- key: Backend
+- key: Back / Front
   values: 
-    - Java
-    - Spring Framework
+    - Java / Spring
     - Node.js
-    - DevOps
+    - Javascript ES6
+    - Vue.js
+
+- key: DevOps
+  values:
+    - Docker
     - AWS
     - Google Cloud
-    - Heroku
-
-- key: Frontend
-  values:
-    - Vue
-    - jQuery
 
 - key: Databases
   values:
@@ -20,7 +18,7 @@
     - PostgreSQL
     - MySQL
 
-- key: ECommerce API's
+- key: API's
   values:
     - eBay
     - Amazon
