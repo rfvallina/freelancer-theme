@@ -10,10 +10,10 @@
             </div>
             
                 {% for cat in site.data.portfolio-categories %}
-                    <h4 class="portfolio-category">{{ cat.name }}</h4>
+                    <h3 class="portfolio-category">{{ cat.name }}</h3>
                     <div class="row">                 
                         {% for post in site.categories[cat.key] %}
-                            <div class="col-lg-4 col-xl-3 portfolio-item">                        
+                            <div class="col-lg-3 col-xl-3 col-md-4 col-sm-6 portfolio-item">                        
                                 <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal"> 
                                     <div class="caption">
                                         <div class="caption-content">
