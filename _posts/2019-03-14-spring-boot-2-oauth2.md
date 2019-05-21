@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Implement OAuth2 with Spring Boot 2"
+description: "How to configure OAuth2 in Spring Boot 2 setting up the authorization server and the resource server both in the same server"
 date: 2019-03-14
 comments: true
 category: blog
